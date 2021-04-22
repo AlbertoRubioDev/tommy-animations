@@ -1,0 +1,211 @@
+body{
+    font-size: 12px;
+    color: #012c5c;
+}
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.image {
+    background-size: cover;
+    width: 880px;
+    height: 975px;
+    background-repeat: no-repeat;
+    background-position: 35% 80%;
+    margin-top: 50px;
+    margin-left: 250px;
+
+     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: auto;
+}
+
+.white-box{
+    background: linear-gradient(to bottom, #ffffff 80%, #f9f9f9 20%);
+    height: 353px;
+    width: 400px;
+    margin-right: 0;
+    margin-left: auto;  
+}
+
+.second-whitebox{
+    height: 622px;
+    background-color: white;
+}
+
+.red-letters-container{
+    position: absolute;
+}
+
+.red-letter{
+    color: #ff1a3e;
+    font-size: 410px;
+    letter-spacing: 5rem;
+    font-family: heroiccondensed-heavy;
+    width: 25%;
+    letter-spacing: 30px;
+    height: 340px
+}
+
+.in-second-row{
+    margin-left: 465px;
+}
+
+@font-face {
+    font-family: heroiccondensed-heavy;
+    src: url(../../assets/fonts/heroiccondensed-heavy-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: heroiccondensed-bold;
+    src: url(../../assets/fonts/heroiccondensed-bold-webfont.ttf);
+  }
+
+.top-letters-container{
+    display: flex;
+    margin-top: 140px;
+    height: 290px;
+    flex-wrap: wrap;
+    max-width: 1032px;
+    margin-left: -139px;
+}
+
+.bottom-row{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: -960px;
+}
+
+/*TXT BOX*/
+
+.size-1{
+    font-family: heroiccondensed-heavy;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.size-2{
+    font-family: heroiccondensed-bold;
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.size-3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+}
+
+.size-4{
+    background-color: #ff1a3e;
+    text-align: center;
+    color: white;
+    font-family: heroiccondensed-bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.red{
+    color: #ff1a3e;
+}
+
+.black{
+    color: black
+}
+
+.text-box{
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+/*video*/
+
+.video-container{
+    margin: auto;
+    width: 1025px;
+    margin-top: -2rem;
+}
+
+.darkheart{
+    margin-left: -106px;
+}
+
+.heart{
+    margin-left: -136px;
+}
+
+.live-text{
+    position: absolute;
+    margin-left: -1004px;
+    /*margin-top: 173px;*/
+    margin-top: 206px;
+    font-family: heroiccondensed-bold;
+    font-size: 29px;
+    letter-spacing: 5px;
+    color: #ff1a3e;
+
+    -webkit-animation: appear 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: appear 1s; /* Firefox < 16 */
+     -ms-animation: appear 1s; /* Internet Explorer */
+      -o-animation: appear 1s; /* Opera < 12.1 */
+         animation: appear 1s;
+    
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+.live-text-box{
+    position: absolute;
+    margin-left: -1004px;
+    margin-top: 206px;
+    background-color: white;
+    width: 129px;
+    height: 30px;
+}
+
+@keyframes appear {
+    from { margin-top: 206px; }
+    to   { margin-top: 173px; }
+}
+
+.brazo{
+    position: absolute;
+    width: 200px;
+    height: 579px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-top: 227px;
+    margin-left: -48px;
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 0.5s;
+}
